@@ -5,9 +5,10 @@ php:
 cache:
   directories:
     - $HOME/.composer/cache
+
 before_install: true
 
-install:
+install :
   - composer install
 
 before_script: true
